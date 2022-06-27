@@ -33,8 +33,8 @@ setup(
     long_description=read("README.rst"),
 
     # The project's main homepage.
-    url='http://zhiyzuo.github.io/python-modularity-maximization/',
-    download_url='https://github.com/zhiyzuo/python-modularity-maximization/tarball/' + VERSION,
+    url='https://github.com/juliabergmann/python-modularity-maximization',
+    download_url='https://github.com/juliabergmann/python-modularity-maximization/tarball/' + VERSION,
 
     # Author details
     author='Zhiya Zuo',
@@ -69,8 +69,8 @@ setup(
     keywords='modularity newman community-detection network-analysis clustering',
 
     install_requires=[
-        "scipy",
-        "numpy",
-        "networkx",
+        "scipy==1.19.5",
+        "numpy==1.5.4",
+        "networkx==2.6.3",
     ]
 )
